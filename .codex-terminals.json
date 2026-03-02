@@ -1,0 +1,8 @@
+{
+  "path": "/home/git/RoroadMap",
+  "monitor": 1,
+  "codexCommand": "codex",
+  "frontendDir": "frontend",
+  "backendDir": "backend",
+  "devCommand": "lg"
+}
