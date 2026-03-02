@@ -35,7 +35,7 @@ Set your base path, monitor, and commands in the GUI.
 3. Click **Remap a shortcut** → **Add shortcut remapping**
 4. Pick your shortcut (e.g. `Ctrl+Shift+4`)
 5. **Action:** **Run program**
-6. **Program:** `C:\Users\walte\Documents\Script\Open-CodexTerminals.bat`
+6. **Program:** `%USERPROFILE%\Documents\Script\Open-CodexTerminals.bat`
 7. Leave **Arguments** empty
 8. Save
 
@@ -56,7 +56,7 @@ Settings are stored in `.codex-terminals.json`:
 
 ```json
 {
-  "path": "/home/walte/projects",
+  "path": "/home/<user>/projects",
   "monitor": 0,
   "codexCommand": "codex",
   "frontendDir": "frontend",

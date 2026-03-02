@@ -2,11 +2,11 @@
 .SYNOPSIS
     Set or view the initial cd path for Open-CodexTerminals.ps1
 .DESCRIPTION
-    Updates .codex-terminals.json. Use a WSL path (e.g. /home/walte/projects or /mnt/c/Users/walte/...)
+    Updates .codex-terminals.json. Use a WSL path (e.g. /home/user/projects or /mnt/c/Users/user/...)
     Run without args to open the GUI.
 .EXAMPLE
     .\Set-CodexTerminalsPath.ps1
-    .\Set-CodexTerminalsPath.ps1 /home/walte/projects
+    .\Set-CodexTerminalsPath.ps1 /home/user/projects
 #>
 
 param(
